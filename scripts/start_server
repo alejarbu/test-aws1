@@ -1,3 +1,4 @@
 #!/bin/bash
-service httpd start
+sudo iptables -t nat -A PREROUTING -i eth0 -p tcp --dport 80 -j REDIRECT --to-port 8080
 
+sudo forever start server/server.json
