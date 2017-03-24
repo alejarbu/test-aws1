@@ -5,5 +5,4 @@ npm install forever -g
 npm install httpdispatcher
 
 forever stopall
-
 forever start server/server.json
