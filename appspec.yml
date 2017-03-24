@@ -8,7 +8,8 @@ hooks:
     - location: scripts/install_dependencies
       timeout: 300
       runas: ec2-user
-    - location: scripts/start_server
+  ApplicationStart:
+      - location: scripts/start_server
       timeout: 300
       runas: ec2-user
   ApplicationStop:
