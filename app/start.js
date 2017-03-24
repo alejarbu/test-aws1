@@ -22,9 +22,15 @@ function handleRequest(request, response) {
 }
 dispatcher.onGet("/tr", function(req, res) {
     console.log(JSON.stringify(req));
-    res.end(pixel, 'binary')
+    res.end(pixel, 'binary');
     //res.writeHead(200, {'Content-Type': 'text/plain'});
     //res.end('Page One');
+});
+dispatcher.onGet("/", function(req, res) {
+    res.writeHead(200, {
+        'Content-Type': 'text/plain'
+    });
+    res.end('welcome');
 });
 //A sample POST request
 /*dispatcher.onPost("/post1", function(req, res) {
