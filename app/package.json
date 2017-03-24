@@ -1,0 +1,7 @@
+{
+    "name": "PerfilClienteDigital",
+    "version": "0.0.0",
+    "dependencies": {
+        "httpdispatcher": ">= 0.0.1"
+    }
+}

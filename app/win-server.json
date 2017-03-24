@@ -1,0 +1,8 @@
+{
+    // Comments are supported
+    "uid": "pcd-server",
+    "append": true,
+    "watch": true,
+    "script": "start.js",
+    "sourceDir": "D:\\Sura Digital\\Temp\\win-test-aws1\\app"
+}
