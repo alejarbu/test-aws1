@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <script>
+            (function(win,doc,ele,scriptSrc,varKey,a,m){
+                win['pcdTrakingObj']=varKey;
+                win[varKey] = win[varKey] || function(){ (win[varKey].q=win[varKey].q || []).push(arguments) },
+                  win[varKey].l=1*new Date();
+                  a=doc.createElement(ele),
+                  m=doc.getElementsByTagName(ele)[0];
+                  a.async=1;a.src=scriptSrc;m.parentNode.insertBefore(a,m)
+                  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+              ga('create', 'UA-92878313-2', 'auto');
+              ga('send', 'pageview');
+        </script>
+    </head>
+    <body>
+        Test hash
+    </body>
+</html>

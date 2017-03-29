@@ -3,6 +3,5 @@
     "uid": "pcd-server",
     "append": true,
     "watch": true,
-    "script": "start.js",
-    "sourceDir": "/home/ec2-user/server"
+    "script": "start.js"
 }
